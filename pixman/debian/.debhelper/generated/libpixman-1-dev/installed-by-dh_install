@@ -1,0 +1,4 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/libpixman-1.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libpixman-1.a
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig
+debian/tmp/usr/include/pixman-1

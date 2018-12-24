@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 12 Dec 2018 22:02:44 +0100
+Source: pixman
+Binary: libpixman-1-0 libpixman-1-0-udeb libpixman-1-dev
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 0.36.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: Andreas Boll <aboll@debian.org>
+Description:
+ libpixman-1-0 - pixel-manipulation library for X and cairo
+ libpixman-1-0-udeb - pixel-manipulation library for X and cairo (udeb)
+ libpixman-1-dev - pixel-manipulation library for X and cairo (development files)
+Changes:
+ pixman (0.36.0-1) unstable; urgency=medium
+ .
+   * New upstream release.
+   * Update to my Debian address.
+   * Update Vcs-* URLs to point to salsa.debian.org.
+   * Use https URL in debian/copyright.
+   * Set source format to 1.0.
+   * Bump debhelper compat to 11.
+   * Bump standards version to 4.2.1.
+Checksums-Sha1:
+ ecc7daf53179b8b452036f75255ba7e47ef099d4 1907068 libpixman-1-0-dbgsym_0.36.0-1_amd64.deb
+ 8bddb56f3bc55e51b71bc246914442b4c144e4dd 225648 libpixman-1-0-udeb_0.36.0-1_amd64.udeb
+ e58b4b047d69d12d99dd9abf806174a07b367361 536904 libpixman-1-0_0.36.0-1_amd64.deb
+ 701923ed48c9da0ff9f0c02a9f2cf829758dfb7e 553672 libpixman-1-dev_0.36.0-1_amd64.deb
+ 00714303ba17e7aba052e34a3198f92a44008c35 6443 pixman_0.36.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 81354fd82d9a1f5ef06a48628ac882cd15b0ed4b1fc55b004ba3eec190f7b606 1907068 libpixman-1-0-dbgsym_0.36.0-1_amd64.deb
+ 50d70af3d170289ffcd2f58c177b1ae87e344ece104016d179747a37090e40fe 225648 libpixman-1-0-udeb_0.36.0-1_amd64.udeb
+ 2f191e46fa230380dcbd634c154328dc9bf4e0303147ff715ca5cd4023e5ed48 536904 libpixman-1-0_0.36.0-1_amd64.deb
+ 8204e9783eb48ffcbf9c77ac86ad7bf0c23d6f52e45dac42e082a426aa1f2b0e 553672 libpixman-1-dev_0.36.0-1_amd64.deb
+ 6ec35c7278e2e81c954d965056136a892a9a52d778d0e63e995e6fe34818f82c 6443 pixman_0.36.0-1_amd64.buildinfo
+Files:
+ 3f599bd84d96f204fc6b6ce327c9dc08 1907068 debug optional libpixman-1-0-dbgsym_0.36.0-1_amd64.deb
+ 3a96af757372aeb08625d5364d2d8bc5 225648 debian-installer optional libpixman-1-0-udeb_0.36.0-1_amd64.udeb
+ 9f4f6c7a2e4e7393bbe1ae6dc430ab3f 536904 libs optional libpixman-1-0_0.36.0-1_amd64.deb
+ 5d85a3ea8abcf7787b84680f05cd4611 553672 libdevel optional libpixman-1-dev_0.36.0-1_amd64.deb
+ 87532a3a8e66990c373279d32c6a6185 6443 devel optional pixman_0.36.0-1_amd64.buildinfo
